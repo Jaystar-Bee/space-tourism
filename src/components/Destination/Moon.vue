@@ -47,7 +47,7 @@ export default {
 }
 .moon__contents > p {
   font-size: 2.2rem;
-  color: rgb(187, 187, 187);
+  color: rgb(164, 168, 190);
   margin-bottom: 7rem;
   margin-top: 1rem;
 }
@@ -68,7 +68,7 @@ hr {
 .distance__topic,
 .time__topic {
   font-size: 1.2rem;
-  color: rgb(129, 129, 129);
+  color: rgb(164, 168, 190);
   margin: 1rem 0;
 }
 .distance__amount,

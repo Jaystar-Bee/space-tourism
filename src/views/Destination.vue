@@ -77,6 +77,8 @@ export default {
 <style scoped>
 .destination {
   background-color: var(--black-color);
+  background-image: url(./../assets/destination/background-destination-desktop.jpg);
+  background-size: cover;
   min-height: 100vh;
   padding-top: 20rem;
   font-size: inherit;
@@ -104,7 +106,7 @@ export default {
   width: 30%;
 }
 .destination__link {
-  color: rgb(160, 160, 160);
+  color: rgb(164, 168, 190);
   cursor: pointer;
   display: inline-block;
   text-transform: uppercase;
@@ -125,6 +127,9 @@ export default {
 /**Rsponsiveness */
 
 @media only screen and (max-width: 50rem) {
+  .destination {
+    background-image: url(./../assets/destination/background-destination-tablet.jpg);
+  }
   .destination__router {
     position: absolute;
     top: 92vh;
@@ -165,6 +170,9 @@ export default {
   }
 }
 @media only screen and (max-width: 31.25rem) {
+  .destination {
+    background-image: url(./../assets/destination/background-destination-mobile.jpg);
+  }
   .destination__router {
     top: 70vh;
   }

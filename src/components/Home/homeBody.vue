@@ -54,6 +54,7 @@ export default {
   padding: 1.3rem 0;
   font-size: 18rem;
   text-transform: uppercase;
+  font-weight: 400;
   font-family: inherit;
 }
 .text > p {

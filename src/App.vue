@@ -43,6 +43,7 @@
   --black-color: #0b0d17;
   --primary-color: #d0d6f9;
   --white-color: #fff;
+  --ash-color: rgb(121, 121, 121);
 }
 *,
 *::after,
@@ -57,9 +58,18 @@ body {
 html {
   font-size: 10px;
   font-family: "Bellefair", serif;
+  font-weight: 400;
   margin: 0;
   color: var(--white-color);
   padding: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 400;
 }
 /* body{
   background-image:url("./assets/home/background-home-mobile.jpg");
@@ -81,7 +91,7 @@ h1 {
 .line {
   background-color: var(--white-color);
   height: 0.0001px;
-  width: 40rem;
+  width: 70rem;
   opacity: 0.3;
   z-index: 2;
   margin-right: -15rem;
