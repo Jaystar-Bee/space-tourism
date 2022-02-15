@@ -1,28 +1,29 @@
 <template>
-  <div class="commander">
+  <div class="pilot">
     <div class="text">
-      <h2 class="text__topic">Commander</h2>
-      <h1 class="text__name">douglas hurley</h1>
+      <h2 class="text__topic">pilot</h2>
+      <h1 class="text__name">victor glover</h1>
       <p class="text__body">
-        Douglas Gerald Hurley is an American engineer, former Marine Corps pilot
-        and former NASA astronaut. He launched into space for the third time as
-        commander of Crew Dragon Demo-2.
+        Pilot on the first operational flight of the SpaceX Crew Dragon to the
+        International Space Station. Glover is a commander in the U.S. Navy
+        where he pilots an F/A-18.He was a crew member of Expedition 64, and
+        served as a station systems flight engineer.
       </p>
     </div>
     <img
-      src="./../../assets/crew/image-douglas-hurley.png"
-      alt="Douglas Hurley"
+      src="./../../assets/crew/image-victor-glover.png"
+      alt="Victor Glover"
     />
   </div>
 </template>
 <script>
 export default {
-  name: "Commander",
+  name: "Pilot",
 };
 </script>
 
 <style scoped>
-.commander {
+.pilot {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -71,7 +72,7 @@ export default {
 
 /**Tablet */
 @media only screen and (max-width: 50rem) {
-  .commander {
+  .pilot {
     flex-direction: column;
     text-align: center;
     margin-top: 10rem;
@@ -100,7 +101,7 @@ export default {
 
 /**Mobile */
 @media only screen and (max-width: 26.6rem) {
-  .commander {
+  .pilot {
     flex-direction: column-reverse;
   }
   img {

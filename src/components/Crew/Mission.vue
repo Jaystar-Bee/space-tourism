@@ -1,28 +1,28 @@
 <template>
-  <div class="commander">
+  <div class="mission">
     <div class="text">
-      <h2 class="text__topic">Commander</h2>
-      <h1 class="text__name">douglas hurley</h1>
+      <h2 class="text__topic">Mission Specialist</h2>
+      <h1 class="text__name">Mark Shuttleworth</h1>
       <p class="text__body">
-        Douglas Gerald Hurley is an American engineer, former Marine Corps pilot
-        and former NASA astronaut. He launched into space for the third time as
-        commander of Crew Dragon Demo-2.
+        Mark Richard Shuttleworth is the founder and CEO of Canonical, the
+        company behind the Linux-based Ubuntu operating system. Shuttleworth
+        became the first South African to travel to space as a space tourist.
       </p>
     </div>
     <img
-      src="./../../assets/crew/image-douglas-hurley.png"
-      alt="Douglas Hurley"
+      src="./../../assets/crew/image-mark-shuttleworth.png"
+      alt="Mark Shuttleworth"
     />
   </div>
 </template>
 <script>
 export default {
-  name: "Commander",
+  name: "Mission",
 };
 </script>
 
 <style scoped>
-.commander {
+.mission {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -71,7 +71,7 @@ export default {
 
 /**Tablet */
 @media only screen and (max-width: 50rem) {
-  .commander {
+  .mission {
     flex-direction: column;
     text-align: center;
     margin-top: 10rem;
@@ -100,7 +100,7 @@ export default {
 
 /**Mobile */
 @media only screen and (max-width: 26.6rem) {
-  .commander {
+  .mission {
     flex-direction: column-reverse;
   }
   img {

@@ -1,28 +1,28 @@
 <template>
-  <div class="commander">
+  <div class="flight">
     <div class="text">
-      <h2 class="text__topic">Commander</h2>
-      <h1 class="text__name">douglas hurley</h1>
+      <h2 class="text__topic">flight engineer</h2>
+      <h1 class="text__name">Anousheh Ansari</h1>
       <p class="text__body">
-        Douglas Gerald Hurley is an American engineer, former Marine Corps pilot
-        and former NASA astronaut. He launched into space for the third time as
-        commander of Crew Dragon Demo-2.
+        Anousheh Ansari is an Iranian American engineer and co-founder of Prodea
+        Systems. Ansari was the fourth self-funded space tourist, the first
+        self-funded woman to fly to the ISS, and the first Iranian in space.
       </p>
     </div>
     <img
-      src="./../../assets/crew/image-douglas-hurley.png"
-      alt="Douglas Hurley"
+      src="./../../assets/crew/image-anousheh-ansari.png"
+      alt="Anousheh Ansari"
     />
   </div>
 </template>
 <script>
 export default {
-  name: "Commander",
+  name: "flight",
 };
 </script>
 
 <style scoped>
-.commander {
+.flight {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -71,7 +71,7 @@ export default {
 
 /**Tablet */
 @media only screen and (max-width: 50rem) {
-  .commander {
+  .flight {
     flex-direction: column;
     text-align: center;
     margin-top: 10rem;
@@ -100,7 +100,7 @@ export default {
 
 /**Mobile */
 @media only screen and (max-width: 26.6rem) {
-  .commander {
+  .flight {
     flex-direction: column-reverse;
   }
   img {

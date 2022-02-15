@@ -109,6 +109,9 @@ a {
   -webkit-backdrop-filter: blur(2rem);
   transition: all 0.5s ease-in-out;
 }
+.nav__logo {
+  margin-right: 3rem;
+}
 .navbar > a {
   margin-right: 4rem;
   text-transform: uppercase;
