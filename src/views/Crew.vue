@@ -75,7 +75,7 @@ export default {
 .crew__header {
   text-transform: uppercase;
   font-size: 2.8rem;
-  letter-spacing: 1rem;
+  letter-spacing: 0.8rem;
   margin-top: 10rem;
 }
 

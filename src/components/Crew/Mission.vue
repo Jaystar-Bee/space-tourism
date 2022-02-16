@@ -106,5 +106,18 @@ export default {
   img {
     margin-bottom: 12rem;
   }
+  .text {
+    margin-bottom: 18rem;
+  }
+}
+@media only screen and (max-width: 24.6rem) {
+  .text {
+    margin-bottom: 10rem;
+  }
+}
+@media only screen and (max-width: 22.6rem) {
+  .text {
+    margin-bottom: 8rem;
+  }
 }
 </style>
