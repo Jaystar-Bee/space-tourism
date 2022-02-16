@@ -17,7 +17,7 @@
       style="display: none"
       class="mobile__checkbox"
     />
-    <div class="mobile__bar-cover">
+    <div class="mobile__bar-cover animate__animated animate__fadeInRight">
       <label for="mobile__bar" class="mobile__bar"></label>
     </div>
     <div class="mobile__navbar">
