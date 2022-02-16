@@ -82,6 +82,9 @@ export default {
     margin-bottom: 25rem;
     width: 70%;
   }
+  img {
+    border-bottom: 1.8px solid var(--ash-color);
+  }
 }
 @media only screen and (max-width: 40rem) {
   .text {
