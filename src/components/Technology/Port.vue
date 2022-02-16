@@ -3,7 +3,7 @@
     <div class="text">
       <div class="text__topic">The terminology ...</div>
       <h1 class="text__name">spaceport</h1>
-      <p class="text__body">
+      <p class="text__body animate__animated animate__zoomIn">
         A spaceport or cosmodrome is a site for launching (or receiving)
         spacecraft, by analogy to the seaport for ships or airport for aircraft.
         Based in the famous Cape Canaveral, our spaceport is ideally situated to
@@ -13,7 +13,7 @@
     <img
       src="./../../assets/technology/image-spaceport-portrait.jpg"
       alt=" Portrait"
-      class="portrait"
+      class="portrait animate__animated animate__fadeInRight"
     />
     <img
       src="./../../assets/technology/image-spaceport-landscape.jpg"

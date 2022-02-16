@@ -1,6 +1,10 @@
 <template>
   <div class="titan">
-    <img src="./../../assets/destination/image-titan.png" alt="" />
+    <img
+      src="./../../assets/destination/image-titan.png"
+      alt=""
+      class="animate__animated animate__rollIn"
+    />
     <div class="titan__contents">
       <h1>titan</h1>
       <p>

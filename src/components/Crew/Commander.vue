@@ -12,6 +12,7 @@
     <img
       src="./../../assets/crew/image-douglas-hurley.png"
       alt="Douglas Hurley"
+      class="animate__animated animate__fadeInDown"
     />
   </div>
 </template>

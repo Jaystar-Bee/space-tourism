@@ -1,6 +1,10 @@
 <template>
   <div class="europa">
-    <img src="./../../assets/destination/image-europa.png" alt="" />
+    <img
+      src="./../../assets/destination/image-europa.png"
+      alt=""
+      class="animate__animated animate__rollIn"
+    />
     <div class="europa__contents">
       <h1>europa</h1>
       <p>

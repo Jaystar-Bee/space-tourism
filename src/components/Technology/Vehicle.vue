@@ -3,7 +3,7 @@
     <div class="text">
       <div class="text__topic">The terminology ...</div>
       <h1 class="text__name">Launch vehicle</h1>
-      <p class="text__body">
+      <p class="text__body animate__animated animate__zoomIn">
         A launch vehicle or carrier rocket is a rocket-propelled vehicle used to
         carry a payload from Earth's surface to space, usually to Earth orbit or
         beyond. Our WEB-X carrier rocket is the most powerful in operation.
@@ -14,7 +14,7 @@
     <img
       src="./../../assets/technology/image-launch-vehicle-portrait.jpg"
       alt=" Portrait"
-      class="portrait"
+      class="portrait animate__animated animate__fadeIn"
     />
     <img
       src="./../../assets/technology/image-launch-vehicle-landscape.jpg"

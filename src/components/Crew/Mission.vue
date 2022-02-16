@@ -12,6 +12,7 @@
     <img
       src="./../../assets/crew/image-mark-shuttleworth.png"
       alt="Mark Shuttleworth"
+      class="animate__animated animate__fadeInDown"
     />
   </div>
 </template>

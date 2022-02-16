@@ -12,6 +12,7 @@
     <img
       src="./../../assets/crew/image-anousheh-ansari.png"
       alt="Anousheh Ansari"
+      class="animate__animated animate__fadeInDown"
     />
   </div>
 </template>

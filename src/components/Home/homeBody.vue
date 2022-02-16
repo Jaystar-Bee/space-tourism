@@ -1,7 +1,7 @@
 <template>
   <div class="home">
     <div class="text__field">
-      <div class="text">
+      <div class="text animate__animated animate__backInLeft">
         <h4>So, You want to travel to</h4>
         <h1>Space</h1>
         <p>
@@ -11,7 +11,7 @@
           experience!
         </p>
       </div>
-      <div class="explore">
+      <div class="explore animate__animated animate__rollIn">
         <div class="circle"><h2>EXPLORE</h2></div>
       </div>
     </div>

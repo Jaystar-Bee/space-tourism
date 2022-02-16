@@ -3,7 +3,7 @@
     <div class="text">
       <div class="text__topic">The terminology ...</div>
       <h1 class="text__name">space capsule</h1>
-      <p class="text__body">
+      <p class="text__body animate__animated animate__zoomIn">
         A space capsule is an often-crewed spacecraft that uses a blunt-body
         reentry capsule to reenter the Earth's atmosphere without wings. Our
         capsule is where you'll spend your time during the flight. It includes a
@@ -14,7 +14,7 @@
     <img
       src="./../../assets/technology/image-space-capsule-portrait.jpg"
       alt=" Portrait"
-      class="portrait"
+      class="portrait animate__animated animate__fadeInRight"
     />
     <img
       src="./../../assets/technology/image-space-capsule-landscape.jpg"

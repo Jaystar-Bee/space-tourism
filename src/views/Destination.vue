@@ -1,7 +1,7 @@
 <template>
   <div class="destination">
     <div class="destination__heading">
-      <div class="pick">
+      <div class="pick animate__animated animate__rubberBand">
         <p><strong>01</strong>Pick your Destination</p>
       </div>
       <div class="destination__router">

@@ -1,6 +1,6 @@
 <template>
   <div class="crew">
-    <div class="crew__header">
+    <div class="crew__header animate__animated animate__rubberBand">
       <h1><strong>02</strong>Meet your crew</h1>
     </div>
     <Commander v-if="isActive('commander')" />

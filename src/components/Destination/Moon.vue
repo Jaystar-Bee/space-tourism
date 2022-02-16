@@ -1,6 +1,10 @@
 <template>
   <div class="moon">
-    <img src="./../../assets/destination/image-moon.png" alt="" />
+    <img
+      src="./../../assets/destination/image-moon.png"
+      alt=""
+      class="animate__animated animate__rollIn"
+    />
     <div class="moon__contents">
       <h1>Moon</h1>
       <p>

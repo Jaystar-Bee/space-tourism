@@ -1,6 +1,6 @@
 <template>
   <div class="technology">
-    <div class="technology__heading">
+    <div class="technology__heading animate__animated animate__rubberBand">
       <h1><strong>03</strong> space launch 101</h1>
     </div>
     <main class="technology__body">

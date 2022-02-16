@@ -13,6 +13,7 @@
     <img
       src="./../../assets/crew/image-victor-glover.png"
       alt="Victor Glover"
+      class="animate__animated animate__fadeInDown"
     />
   </div>
 </template>
