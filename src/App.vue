@@ -116,13 +116,19 @@ a {
   margin-right: 4rem;
   text-transform: uppercase;
   font-weight: 400;
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   transition: all 0.5s ease-in-out;
+}
+.mobile__nav > a {
+  text-transform: uppercase;
+  font-size: 2rem;
+  margin-bottom: 5rem !important;
 }
 .navbar > a > strong,
 .mobile__nav > a > strong {
   margin-right: 1rem;
   font-weight: 800;
+
   font-size: inherit;
 }
 .navbar > a:hover {
@@ -180,7 +186,7 @@ a {
   backdrop-filter: blur(2rem);
   height: 100vh;
   display: absolute;
-  top: 40%;
+  top: 45%;
   padding-top: 20rem;
   display: flex;
   flex-direction: column;
